@@ -15,6 +15,16 @@ Alternatively, if you are working on an existing JS React app, run the following
 
 Happy coding with Typescript :-)
 
+
+## Eslint
+
+- `npm install eslint --save-dev`
+- `./node_modules/eslint/bin/eslint.js --init`
+- Add `"lint": "eslint src"` to package.json scripts
+- Disable `react/react-in-jsx-scope` rule on eslint config
+- Add `"node": true` and `"jest": true` to eslint env
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
