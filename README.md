@@ -24,6 +24,9 @@ Happy coding with Typescript :-)
 - Disable `react/react-in-jsx-scope` rule on eslint config
 - Add `"node": true` and `"jest": true` to eslint env
 
+## Git hooks
+
+`npx husky-init && npm install`
 
 # Getting Started with Create React App
 
