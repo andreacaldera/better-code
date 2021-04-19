@@ -1,3 +1,20 @@
+# Write better Node / React app with Typescript and Eslint
+
+## Create a React app with Create React App
+
+See below for further info
+
+## Add Typescript
+
+If you are starting from scratch, use `npx create-react-app my-app --template typescript` to create your React app.
+
+Alternatively, if you are working on an existing JS React app, run the following command
+`npm install --save typescript @types/node @types/react @types/react-dom @types/jest`
+
+(Restart your app)
+
+Happy coding with Typescript :-)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
