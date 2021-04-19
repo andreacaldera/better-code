@@ -24,10 +24,13 @@
     "eject": "react-scripts eject",
     "lint": "eslint src",
     "prepare": "husky install",
-    "format": "prettier src --write"
+    "format": "prettier src --write",
+    "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "*.{js,ts,ts}": ["prettier src --write"]
+    "src/**/*.{ts,tsx,js,jsx}": [
+      "npm run format"
+    ]
   },
   "eslintConfig": {
     "extends": [

@@ -1,7 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
-import { AwesomeComponent } from './awesome-component';
-
+import logo from "./logo.svg";
+import "./App.css";
+import { AwesomeComponent } from "./awesome-component";
 
 function App() {
   return (
