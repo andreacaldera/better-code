@@ -28,6 +28,17 @@ Happy coding with Typescript :-)
 
 `npx husky-init && npm install`
 
+Edit .husky/pre-commit with your pre commit steps.
+
+### lint-staged
+`npm i lint-staged --save-dev`
+
+## Code formatting
+
+- `npm i prettier --save-dev`
+- Create empty prettier configuration `echo {}> .prettierrc.json`
+- Add format script in package.json
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
