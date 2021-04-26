@@ -1,8 +1,9 @@
-import logo from "./logo.svg";
+import React from "react";
 import "./App.css";
 import { AwesomeComponent } from "./awesome-component";
+import logo from "./logo.svg";
 
-function App() {
+const App: React.FunctionComponent = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -22,6 +23,6 @@ function App() {
       </header>
     </div>
   );
-}
+};
 
 export default App;

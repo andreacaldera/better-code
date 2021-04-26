@@ -8,13 +8,13 @@ export const AwesomeComponent: React.FunctionComponent = () => {
   const [state, setState] = useState<string>();
 
   useEffect(() => {
-    demoPromise().then(setState);
+    void demoPromise().then(setState);
   }, []);
 
   if (NAUGHTY_DEVELOPER) {
     return null;
     /** catch error faster by using Typescript, the following line is incorrect and will immediately give you an error instead of failing at runtime */
-    // return undefined
+    // return undefined;
   }
   return <h1>Typescript is awesome: {state}</h1>;
 };
